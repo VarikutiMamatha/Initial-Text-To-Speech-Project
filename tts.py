@@ -2,7 +2,7 @@ from elevenlabs.client import ElevenLabs
 from elevenlabs import save
 
 client = ElevenLabs(
-    api_key="sk_14b9e92e2b9483ace2c4fcc0e6544f2926d31037cfd6a5ec"
+    api_key="APIKey"
 )
 
 audio = client.text_to_speech.convert(
